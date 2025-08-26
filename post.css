@@ -1,0 +1,28 @@
+.blog-container .blogpost {
+    width: 60%;
+    margin: 0 auto;
+}
+.blog-container .blogpost p{
+    text-align: justify;
+    padding-bottom: 60px !important;
+}
+ @media (max-width :769px){
+
+.blog-container .blogpost {
+    width: 100%;
+    margin-top: 30px;
+}
+.blog-container .blogpost img{
+    height: 50vh;
+    object-fit: cover;
+}
+
+ }
+ @media (max-width :465px){
+ .blog-container .blogpost {
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+ }
